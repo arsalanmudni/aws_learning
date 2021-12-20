@@ -1,0 +1,9 @@
+{"namespace": "example.avro",
+ "type": "record",
+ "name": "Student",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "Class",  "type": "string"},
+     {"name": "RollNo", "type": ["int", "null"]}
+ ]
+}
